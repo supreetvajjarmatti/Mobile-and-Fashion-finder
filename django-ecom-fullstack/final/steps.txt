@@ -1,0 +1,38 @@
+open the project file in pycharm app 
+
+https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC  
+
+This is the link to download the pycharm 
+
+install python on your laptop like 3.6
+
+after that open this project in pycharm in venv -- just create a blank python project whith anyname and copy all the files to that folder
+
+to start project
+open terminal
+in terminal type
+{
+pip3 install -r req.txt,
+python manage.py runserver,
+}
+you will find a url link in the terminal copy paste that ip url in web browser and you will get output
+
+
+
+to create a admin account
+
+in terminal type{
+ python manage.py createsuperuser,
+
+}
+
+it will ask for account name you can give any but you have to remember it followed by email and password fill it remember all and the password while typing it will not show on terminal dont panic its security just type and hit enter
+
+after that start project again and after grtting ip url type /admin eg:http://127.0.0.1:8000/admin 
+
+after that it will ask for usenname and password which you enetred in super user step note its username not useremail
+
+after that you will be in admin panel and you can control everything 
+
+
+``END``
